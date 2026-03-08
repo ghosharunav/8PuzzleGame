@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D1B2A"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 PUZZLE"
+        android:textColor="#E0F0FF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT YOUR MODE"
+        android:textColor="#5B8DB8"
+        android:textSize="14sp"
+        android:letterSpacing="0.4"
+        android:layout_marginBottom="60dp"/>
+
+    <!-- Mode 1 Card -->
+    <LinearLayout
+        android:id="@+id/cardMode1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_bg_blue"
+        android:padding="24dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODE 1"
+            android:textColor="#5B8DB8"
+            android:textSize="12sp"
+            android:letterSpacing="0.3"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic Order"
+            android:textColor="#E0F0FF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Mini grid preview Mode 1 -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="1" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="2" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="3" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="4" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="5" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="6" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="7" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="8" android:gravity="center" android:textColor="#E0F0FF" android:background="@drawable/mini_tile_bg" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="" android:gravity="center" android:background="@drawable/mini_tile_empty" android:layout_margin="2dp"/>
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal: 1→2→3→4→5→6→7→8"
+            android:textColor="#5B8DB8"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- Mode 2 Card -->
+    <LinearLayout
+        android:id="@+id/cardMode2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_bg_orange"
+        android:padding="24dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MODE 2"
+            android:textColor="#E8A87C"
+            android:textSize="12sp"
+            android:letterSpacing="0.3"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Challenge"
+            android:textColor="#FFF3E0"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Mini grid preview Mode 2 -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_marginBottom="12dp">
+
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="" android:gravity="center" android:background="@drawable/mini_tile_empty_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="8" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="7" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="6" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="5" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="4" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="3" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="2" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+            <TextView android:layout_width="40dp" android:layout_height="40dp" android:text="1" android:gravity="center" android:textColor="#FFF3E0" android:background="@drawable/mini_tile_bg_orange" android:layout_margin="2dp"/>
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal: 8→7→6→5→4→3→2→1"
+            android:textColor="#E8A87C"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>

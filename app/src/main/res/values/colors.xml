@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tile_bg">#3F51B5</color>
+    <color name="tile_text">#FFFFFF</color>
+    <color name="empty_tile">#E8EAF6</color>
+    <color name="bg_main">#E8EAF6</color>
+    <color name="accent">#FF4081</color>
+    <color name="header_bg">#303F9F</color>
+    <color name="win_bg">#4CAF50</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

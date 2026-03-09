@@ -43,3 +43,8 @@ Animated splash screen displayed when the app launches.
 Blue theme for Classic Mode
 
 Orange theme for Reverse Mode
+
+## 📥 Download APK
+You can download and install the latest version of the app here:
+
+https://github.com/ghosharunav/8PuzzleGame/raw/main/app8puzzle.apk
